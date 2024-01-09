@@ -1,8 +1,8 @@
-console.log("こんにちは");
+console.log('こんにちは');
 
-const boolean = "123";
+const boolean = '123';
 if (boolean) {
-  const b = "1234";
+  const b = '1234';
 }
 
-const test = "test";
+const test = 'test';
