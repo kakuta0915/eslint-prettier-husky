@@ -9,11 +9,13 @@
     "sourceType": "module"
   },
   "rules": {
-    "no-console": ["warn"],
-    "indent": ["warn", 2],
     "quotes": ["warn", "double"],
-    "semi": ["error", "always"],
-    "no-unused-vars": ["warn"],
-    "camelcase": ["warn"]
-  }
+    "no-unused-vars": ["off"],
+    "linebreak-style": ["off"]
+    // "no-console": ["warn"],
+    // "indent": ["warn", 2],
+    // "semi": ["error", "always"],
+    // "camelcase": ["warn"]
+  },
+  "extends": ["airbnb-base"]
 }
